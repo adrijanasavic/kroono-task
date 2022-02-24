@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+    border-bottom: 1px solid #C8C7CC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profileImg {
+    width: 200px;
+    padding: 7px;
+}
+
+.profileImg>img {
+    width: 100px;
+}
+
+.name {
+    align-self: center;
+}
